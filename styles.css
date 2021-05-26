@@ -1,0 +1,60 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: white;
+}
+
+.nav-link {
+    background-color: dodgerblue;
+    
+}
+
+
+body {
+    background-color: #64b7ff;
+}
+
+
+#submit-button {
+    background-color: dodgerblue; padding: 3px 80px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: white;
+}
+.nav-link {
+    color: white;
+    margin: 5px;
+    float: right;
+    position: relative;
+    right: 0;
+    background-color: dodgerblue;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 4px;
+}
+    .form-wrapper {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    text-align:left;
+    width:30%;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+.form-input {
+    width: 50%;
+}
